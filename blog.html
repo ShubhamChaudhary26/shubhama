@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>University web page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="#"><img src="logo.png" alt="" /></a>
+        <div class="nav-links" id="nav-links">
+          <i class="fas fa-times" onclick="hidemenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="Contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fas fa-bars" onclick="showmenu()"></i>
+      </nav>
+      <h1>Our Certificate & Online Programs For 2021</h1>
+    </section>
+    <hr color="red" >
+    <br>
+    
+    <!-- ----------------------- blog----------- -->
+    <section class="blog-content">
+      <div class="blog-left">
+        <img src="image/certificate.jpg"/>
+        <hr color="black">
+        <h2>Our Certificate & Online Programs For 2021</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
+          consequuntur deleniti molestias tenetur iure dolor pariatur? Ipsam
+          quibusdam similique t   Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ea ipsum provident. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabootam qui quas.
+        </p>
+        <br/>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis
+          cumque recusandae quisquam necessitatibus qua   Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ea ipsum provident. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabom error unde ipsum,
+          minima commodi nobis accusamus earum.
+        </p>
+        <br/>
+        <p>
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ea ipsum provident. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo
+          suscipit officiis recusandae quis ratione? Maior   Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ea ipsum provident. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicaboes nemo voluptate
+          minus? Molestiae labore iste veritatis!
+        </p><br>
+
+           <div class="comment-box">
+
+            <h3>Leave a Comment </h3>
+            <form class="comment-form" > 
+              <input type="text" placeholder="Enter name">
+              <input type="Email" placeholder="Enter Email">
+              <textarea row="10" placeholder="Your comment"></textarea>
+              <button type="submit" class="hero-btn red-btn">
+                POST COMMENT
+              </button>
+            </form>
+        
+           </div>
+      </div>
+      <div class="blog-right">
+        <h3>Post Categories </h3>
+       
+        <div>
+          <span>Bussiness Analytics</span>
+          <span>21</span>
+        </div>
+        <div>
+          <span>Bussiness Analytics</span>
+          <span>21</span>
+        </div>
+        <div>
+          <span>Bussiness Analytics</span>
+          <span>21</span>
+        </div>
+        <div>
+          <span>Bussiness Analytics</span>
+          <span>21</span>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ------------------facilities-------------------------- -->
+
+    <!-- ------------------footer------ -->
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla nostrum,
+        cupiditate repudiandae <br />
+        beatae dolorem totam id, qui quis eveniet tempore error voluptate.
+      </p>
+      <div class="icon">
+        <i class="fas fa-facebook"></i>
+        <i class="fas fa-instagram"></i>
+        <i class="fas fa-instagram"></i>
+        <i class="fas fa-linkedin"></i>
+      </div>
+      <p>made with <i class="fas fa-heart-o"> </i> by easy tutorials</p>
+    </section>
+
+    <!-- -------------javascript for toggle menu---------------- -->
+    <script>
+      var navlinks = document.getElementById("nav-links");
+      function showmenu() {
+        navlinks.style.right = "0";
+      }
+      function hidemenu() {
+        navlinks.style.right = "-200px";
+      }
+    </script>
+
+    <!-- ------------------------------------------------------------ -->
+  </body>
+</html>
